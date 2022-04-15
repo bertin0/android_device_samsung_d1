@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 ## Inscreen Fingerprint HAL
-TARGET_HAVE_FOD := true
+TARGET_HAVE_UDFPS := true
 
 ## Inherit from d1 device
 $(call inherit-product, device/samsung/d1/device.mk)
